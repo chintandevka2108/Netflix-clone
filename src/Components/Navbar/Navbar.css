@@ -1,0 +1,92 @@
+/* Base Navbar Styles */
+.navbar {
+  background-color: transparent;
+  transition: all 0.4s ease;
+  padding: 0.5rem 0;
+  z-index: 1000;
+}
+
+.navbar.scrolled {
+  background-color: #141414 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand .navbar-logo {
+  height: 25px; 
+  width: auto;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-icon {
+  width: 20px; 
+  height: 20px;
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.navbar-icon:hover {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  color: #e5e5e5 !important;
+  font-size: 1rem; 
+  padding: 0.5rem 1rem !important;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #b3b3b3 !important;
+}
+
+.navbar-profile-img {
+  width: 32px; 
+  height: 32px;
+  border-radius: 4px;
+}
+
+.navbar-caret {
+  width: 10px;
+  height: 10px;
+}
+
+.navbar-dropdown-menu {
+  background-color: #000000;
+  border: 1px solid #333;
+  min-width: 120px;
+}
+
+.dropdown-item {
+  color: rgb(223, 223, 223) !important;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem !important;
+}
+
+.dropdown-item:hover {
+  background-color: #333 !important;
+  color: white !important;
+}
+
+/* Specific styles for the collapsed menu on mobile */
+.navbar-collapse {
+  background-color: #141414; 
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+}
+
+/* Hide desktop icons on mobile */
+@media (max-width: 991px) {
+  .right-icons-desktop {
+    display: none !important;
+  }
+}

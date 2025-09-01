@@ -1,0 +1,42 @@
+.movies-page {
+  padding-top: 70px;
+  background-color: #141414;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  padding: 20px;
+}
+
+/* Similar structure for other pages */
+.tv-shows-page,
+.kids-page,
+.my-list-page,
+.new-popular-page {
+  padding-top: 70px;
+  background-color: #141414;
+  min-height: 100vh;
+}
+
+.kids-header {
+  padding: 20px;
+  background-color: #1a1a1a;
+}
+
+.kids-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.empty-list,
+.login-prompt {
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+.empty-list h2,
+.login-prompt h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
